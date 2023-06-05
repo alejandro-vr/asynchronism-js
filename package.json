@@ -1,0 +1,27 @@
+{
+  "name": "asynchronism-js",
+  "version": "1.0.0",
+  "description": "I created this repository to remember about asynchronism in js, in order to be able to make better asynchronous algorithms",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alejandro-vr/asynchronism-js.git"
+  },
+  "keywords": [
+    "javascript",
+    "asynchronism"
+  ],
+  "author": "Alejandro Valencia",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/alejandro-vr/asynchronism-js/issues"
+  },
+  "homepage": "https://github.com/alejandro-vr/asynchronism-js#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.1"
+  }
+}
