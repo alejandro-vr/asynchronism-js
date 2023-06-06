@@ -33,6 +33,9 @@ function fetchData(urlApi, callback) {
         const error = new Error(urlApi);
         return callback(error, null);
       }
+    // If 'readyState !== 4', show 'loading'
+    } else {
+      console.log(`Wait, loading... state=${xhttp.readyState}`);
     }
   }
   // As its name say, the 'send()' method sends request to the server
